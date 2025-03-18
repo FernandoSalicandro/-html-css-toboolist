@@ -1,0 +1,17 @@
+/* RESET */
+/* Reset dei margini e padding degli elementi */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* reset per massima larghezza delle immagini */
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
