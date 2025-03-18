@@ -34,20 +34,30 @@ img {
 }
 /* imposto sfondo body */
 .body {
-    background-color: rgb(238, 235, 235);
+    background-color:rgb(238, 235, 235);
 }
 
 .main-container {
-    display: inline-block;
-    margin-top: 50px;
+
+    background-color: white;
+    margin-top: 10px;
+    margin: 5%
+
+}
+
+.tabs {
+    border-top: none;
+    border-bottom: 1px solid lightgray;
 }
 
 .add-task , .add-section{
     display: inline-block;
     padding: 7px 7px 7px 7px ;
     border-radius: 8px;
-    margin-top: 50px;
-    border-style: solid;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    border-style: none;
 
 }
 
@@ -58,7 +68,26 @@ img {
     border-color: rgb(158, 205, 246);
 }
 
-.add-section{
-    border-color: rgb(187, 185, 185);
+.add-section {
+    background-color: white;
+    border:1px solid lightgrey;
     color: rgb(168, 166, 166);
+  }
+
+ .span-list {
+    display: inline;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-color: rgb(131, 221, 131);
+    color: lightgreen;
+    font-weight: 500;
+ }
+.list {
+    aspect-ratio: 1;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.unmarked {
+    list-style-type: none;
 }
