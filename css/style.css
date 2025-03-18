@@ -2,16 +2,38 @@
 /* Reset dei margini e padding degli elementi */
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* reset per massima larghezza delle immagini */
 img {
     max-width: 100%;
 }
+/* COMMON  */
+.header{
+    background-color: white;
 
+}
+
+.logo {
+    padding: 0 0 0 15px;
+    vertical-align: middle;
+}
+
+.header-span {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 10px;
+    vertical-align: middle;
+}
 .container {
     width: 80%;
     margin: 0 auto;
+    background-color: white;
+}
+/* imposto sfondo body */
+.body {
+    background-color: rgb(238, 235, 235);
 }
