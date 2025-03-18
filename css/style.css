@@ -33,6 +33,8 @@ img {
 .container {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: -400px;
+    margin-left: 10px;
 }
 
 /* imposto sfondo body */
@@ -47,6 +49,7 @@ img {
     margin: 5%
 }
 
+/* imposto sezione tabs task e section */
 .tabs {
     border-top: none;
     border-bottom: 1px solid lightgray;
@@ -97,6 +100,7 @@ img {
 }
 
 .list {
+    display: block;
     aspect-ratio: 1;
     margin-top: 30px;
     padding: 15px;
@@ -104,7 +108,8 @@ img {
 
 .list li {
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: -30px;
 }
 
 .list-title {
@@ -112,22 +117,32 @@ img {
     margin-bottom: 20px;
 }
 
-.labels,
 .editorial,
 .q1goal,
 .recruiting,
 .mobile,
 .website,
 .sales {
-background-color: blue;
-display: inline-block;
-padding: 7px 9px 7px 9px;
-border-radius: 15px;
-margin-top: 23px;
-margin-bottom: 20px;
-margin-left: 7px;
-border-style: none;
-color: white;
-font-size: 10px;
-vertical-align: middle;
+    display: inline-block;
+    padding: 7px 9px 7px 9px;
+    border-radius: 15px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    border-style: none;
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.editorial {
+    background-color: lightblue;
+}
+
+.q1goal {
+    background-color: rgb(165, 70, 165);
+}
+
+.recruiting {
+    background-color: rgb(135, 214, 135);
 }
