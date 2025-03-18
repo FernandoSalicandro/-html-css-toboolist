@@ -11,8 +11,9 @@
 img {
     max-width: 100%;
 }
+
 /* COMMON  */
-.header{
+.header {
     background-color: white;
 
 }
@@ -28,13 +29,15 @@ img {
     margin-left: 10px;
     vertical-align: middle;
 }
+
 .container {
     width: 80%;
     margin: 0 auto;
 }
+
 /* imposto sfondo body */
 .body {
-    background-color:rgb(238, 235, 235);
+    background-color: rgb(238, 235, 235);
 }
 
 .main-container {
@@ -42,7 +45,6 @@ img {
     background-color: white;
     margin-top: 10px;
     margin: 5%
-
 }
 
 .tabs {
@@ -50,9 +52,10 @@ img {
     border-bottom: 1px solid lightgray;
 }
 
-.add-task , .add-section{
+.add-task,
+.add-section {
     display: inline-block;
-    padding: 7px 7px 7px 7px ;
+    padding: 7px 7px 7px 7px;
     border-radius: 8px;
     margin-top: 23px;
     margin-bottom: 20px;
@@ -70,24 +73,61 @@ img {
 
 .add-section {
     background-color: white;
-    border:1px solid lightgrey;
+    border: 1px solid lightgrey;
     color: rgb(168, 166, 166);
-  }
+}
 
- .span-list {
+.span-listcross {
+    display: inline;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-color: red;
+    color: red;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.span-listcheck {
     display: inline;
     border-radius: 50%;
     border: 1px solid black;
     border-color: rgb(131, 221, 131);
     color: lightgreen;
     font-weight: 500;
- }
+}
+
 .list {
     aspect-ratio: 1;
     margin-top: 30px;
     padding: 15px;
 }
 
-.unmarked {
+.list li {
     list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.list-title {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.labels,
+.editorial,
+.q1goal,
+.recruiting,
+.mobile,
+.website,
+.sales {
+background-color: blue;
+display: inline-block;
+padding: 7px 9px 7px 9px;
+border-radius: 15px;
+margin-top: 23px;
+margin-bottom: 20px;
+margin-left: 7px;
+border-style: none;
+color: white;
+font-size: 10px;
+vertical-align: middle;
 }
