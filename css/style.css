@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    /* border: 1px solid black; */
 }
 
 /* reset per massima larghezza delle immagini */
@@ -33,7 +34,7 @@ img {
 .container {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: -400px;
+    margin-bottom: -440px;
     margin-left: 10px;
 }
 
@@ -43,7 +44,7 @@ img {
 }
 
 .main-container {
-
+    height: 800px;
     background-color: white;
     margin-top: 10px;
     margin: 5%
@@ -101,15 +102,17 @@ img {
 
 .list {
     display: block;
-    aspect-ratio: 1;
+    height: 50px;
     margin-top: 30px;
     padding: 15px;
 }
 
 .list li {
+    display: block;
     list-style-type: none;
     margin-bottom: 0px;
-    margin-top: -30px;
+    margin-top: -40px;
+    height: 60px
 }
 
 .list-title {
@@ -117,6 +120,7 @@ img {
     margin-bottom: 20px;
 }
 
+.labels,
 .editorial,
 .q1goal,
 .recruiting,
@@ -145,4 +149,12 @@ img {
 
 .recruiting {
     background-color: rgb(135, 214, 135);
+}
+
+.mobile {
+    background-color: orange;
+}
+
+ul {
+    margin-top: 20px;
 }
