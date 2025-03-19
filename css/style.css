@@ -121,7 +121,8 @@ img {
     margin-bottom: 20px;
 }
 
-.labels,
+/* LABELS */
+.editorial-none,
 .editorial,
 .q1goal,
 .recruiting,
@@ -140,6 +141,9 @@ img {
     vertical-align: middle;
 }
 
+.editorial-none{
+    background-color: white;
+}
 .editorial {
     background-color: lightblue;
 }
@@ -158,4 +162,11 @@ img {
 
 ul {
     margin-top: 20px;
+}
+.website {
+    background-color: rgb(239, 87, 226);
+}
+
+.sales {
+    background-color: rgb(167, 234, 44);
 }
